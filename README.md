@@ -23,10 +23,6 @@ SELECT * FROM usuarios;
 -- Update: atualizar usuário
 UPDATE usuarios
 
-📌 Autor: Valdemir Gaspar Nelo
-🔗 GitHub  
-🔗 LinkedIn  
-📷 Instagram
 SET senha = 'novaSenha'
 WHERE id = 1;
 
@@ -119,9 +115,10 @@ public class CrudUsuarios {
 
 ---------------------------------------------------
 
-📌 Autor: Valdemir Gaspar Nelo
-🔗 GitHub  
-🔗 LinkedIn  
-📷 Instagram
+📌 **Autor:** Valdemir Gaspar Nelo  
+🔗 [GitHub](https://github.com/VGNelo)  
+🔗 [LinkedIn](https://www.linkedin.com/in/valdemirgasparnelo/)  
+📷 [Instagram](https://www.instagram.com/seuusuario)
+
 
 
