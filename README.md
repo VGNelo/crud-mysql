@@ -46,11 +46,5 @@ Crie o banco de dados e a tabela executando o script crud_usuarios.sql.
 
 Execute os comandos SQL acima para realizar as operações de CRUD.
 
-📌 Autor: Valdemir Gaspar Nelo
-🔗 GitHub  
-🔗 LinkedIn  
-📷 Instagram
-
-
 ---
  
