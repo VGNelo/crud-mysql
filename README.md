@@ -1,7 +1,6 @@
 # CRUD de Usuários com MySQL
 
-Este projeto implementa um CRUD (Create, Read, Update, Delete) básico utilizando **MySQL**.  
-O objetivo é demonstrar a aplicação prática de conceitos de banco de dados relacionais, incluindo criação de tabelas, inserção de registros, consultas, atualizações e exclusões.
+Este projeto implementa um CRUD (Create, Read, Update, Delete) básico utilizando **MySQL**.
 
 ## Estrutura do Projeto
 - **Banco de dados:** `sistema_usuarios`
@@ -11,22 +10,47 @@ O objetivo é demonstrar a aplicação prática de conceitos de banco de dados r
   - `email` (VARCHAR)
   - `senha` (VARCHAR)
 
-## Funcionalidades
-- **Create:** Inserção de novos usuários.  
-- **Read:** Consulta de registros existentes.  
-- **Update:** Atualização de informações de usuários.  
-- **Delete:** Exclusão de registros.
+## Exemplo completo de uso
 
-## Como executar
-1. Abra o MySQL Workbench ou outro cliente SQL.  
-2. Crie o banco de dados e a tabela executando o script `crud_usuarios.sql`.  
-3. Utilize os comandos SQL fornecidos para realizar as operações de CRUD.  
+```sql
+-- Create: inserir usuário
+INSERT INTO usuarios (nome, email, senha)
+VALUES ('João Silva', 'joao@email.com', 'senha123');
 
-## Objetivo
-Este projeto serve como base para estudos e prática de SQL, podendo ser expandido para integração com linguagens como **Java** ou **Python** em aplicações reais.
+-- Read: consultar usuários
+SELECT * FROM usuarios;
+
+-- Update: atualizar usuário
+UPDATE usuarios
+
+📌 Autor: Valdemir Gaspar Nelo
+🔗 GitHub  
+🔗 LinkedIn  
+📷 Instagram
+SET senha = 'novaSenha'
+WHERE id = 1;
+
+-- Delete: excluir usuário
+DELETE FROM usuarios
+WHERE id = 1;
+
+Pré-requisitos
+MySQL instalado (versão 8.0 ou superior)
+
+Cliente SQL (Workbench ou terminal)
+
+Como executar
+Abra o MySQL Workbench ou outro cliente SQL.
+
+Crie o banco de dados e a tabela executando o script crud_usuarios.sql.
+
+Execute os comandos SQL acima para realizar as operações de CRUD.
+
+📌 Autor: Valdemir Gaspar Nelo
+🔗 GitHub  
+🔗 LinkedIn  
+📷 Instagram
+
 
 ---
-
-📌 **Autor:** Valdemir Gaspar Nelo  
-🔗 [LinkedIn](https://www.linkedin.com/in/valdemirgasparnelo/) | [GitHub](https://github.com/VGNelo)
-
+ 
